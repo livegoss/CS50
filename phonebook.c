@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include "cs50.h"
+#include <string.h>
+
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
+
+int main(void)
+{
+    person people[3];
+
+    people[0].name = "Kelly";
+    people[0].number = "+1-617-495-1000";
+
+    people[1].name = "David";
+    people[1].number = "+1-617-495-2000";
+
+    people[2].name = "John";
+    people[2].numnber = "+1-9494-468-2750";
+ 
+  string name = get_string("Name: ");
+  for (int i = 0; i < 3; i++)
+  {
+    if (strcmp(names[i], name) == 0)
+    {
+        printf("Number: %s\n", numbers[i]);
+        return 0;
+    }
+  }
+  printf("Number not found\n");
+  return 1;
+}

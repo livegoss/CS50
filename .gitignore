@@ -1,0 +1,14 @@
+# Compiled binaries
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+
+# Debug / build artifacts
+*.pdb
+*.ilk
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
