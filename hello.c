@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("hello, world\n");
+    printf("hello, world! I am learning CS50\n");
 }
 
